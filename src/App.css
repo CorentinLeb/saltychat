@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Roboto';
 }
 
 .App-logo {
@@ -35,4 +36,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 20px;
+  margin-left: 10px;
+  color: white;
+  background: linear-gradient(#e66465, #9198e5);
+  text-transform: uppercase;
+  border: 2px solid black;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.message img {
+  width: 150px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-right: 10px;
 }
